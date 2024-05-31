@@ -1,81 +1,8 @@
-.beacon-modal__base, .beacon-toast__base {
-	background: var(--beacon-card-background) !important;
-	border-radius: var(--border-radius) !important;
-	grid-row: 3;
-	grid-column: 2;
-}
-
-.beacon-modal__header {
-	grid-row: 2;
-	grid-column: 2;
-}
-
-.beacon-modal__wrapper {
-	width: 100vw !important;
-	height: 100vh !important;
-	top: unset !important;
-	transform: unset !important;
-	max-width: unset !important;
-	display: grid !important;
-	padding: unset !important;
-
-	grid-template-columns: 1fr auto 1fr;
-	grid-template-rows: 1fr auto auto 1fr;
-}
-
-.beacon-selection__name {
-	margin-right: var(--double-spacing) !important;
-}
-
-.beacon-modal__close__wrapper {
-	position: unset !important;
-	top: unset !important;
-	right: unset !important;
-	background: var(--beacon-card-background) !important;
-}
-
-.beacon-toast__wallet__outer, .beacon-toast__action__item__subtitle, .beacon-toast__action__item p, .beacon-toast__powered *,
-.beacon-toast__more {
-	color: var(--text-color) !important
-}
-
-.progress-line {
-	background-color: var(--text-hint-color);
-}
-
-.progress-line:before {
-	background-color: var(--text-color);
-}
-
-.beacon-alert__title, .beacon-selection__name, .beacon-list__title {
-	color: var(--text-color) !important
-}
-
-.beacon-selection__list {
-	padding: var(--half-spacing) !important;
-	margin: var(--half-spacing) !important;
-}
-
-.beacon-selection__list:hover {
-	background-color: var(--hover-background-color);
+* {
 	border-radius: var(--border-radius) !important;
 }
 
-.beacon-modal__button--outline {
-	border: none !important;
-	color: var(--text-color) !important;
-	border-radius: var(--border-radius) !important;
-	background: var(--flat-button-background) !important;
-}
 
-.beacon-modal__button--outline:hover {
-	background: var(--flat-button-focused-background) !important;
-}
-
-#beacon-modal__content {
-	max-height: 70vh;
-	overflow: auto;
-}
 
 ::-webkit-scrollbar {
 	width: 5px;
