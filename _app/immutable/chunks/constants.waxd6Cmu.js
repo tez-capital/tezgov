@@ -1,0 +1,1 @@
+const s="<VERSION>",E="<CODENAME>",e=9n,t=15e3,o="https://tzkt.io",_=5n,n=80n,a="https://www.tezosagora.org/proposal",A={baker_node:{connection_status:"disconnected"},nodes:{},rights:{level:0,rights:[]},services:{timestamp:0,node_services:{},signer_services:{}},bakers:{level:0,bakers:{}},ledgers:{}};export{a as A,t as B,e as D,A as E,n as P,s as T,E as a,_ as b,o as c};
