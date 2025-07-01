@@ -1,0 +1,1 @@
+import{g as n}from"./6JxTeoFN.js";const s=()=>"no proposals",t=()=>"no hay propuestas",e=()=>"žádné návrhy",p=()=>"ei ehdotuksia",u=()=>"提案なし",a=()=>"nici o propunere",c=()=>"немає пропозицій",l=(_={},r={})=>{const o=r.locale??n();return o==="en"?s():o==="es"?t():o==="cs"?e():o==="fi"?p():o==="jp"?u():o==="ro"?a():c()};export{l as n};
