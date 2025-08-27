@@ -1,0 +1,1 @@
+import{g as n}from"./DAW5omEl.js";const s=()=>"no proposals",t=()=>"no hay propuestas",e=()=>"žádné návrhy",p=()=>"ei ehdotuksia",u=()=>"提案なし",a=()=>"nici o propunere",c=()=>"немає пропозицій",i=()=>"aucune proposition",f=(_={},r={})=>{const o=r.locale??n();return o==="en"?s():o==="es"?t():o==="cs"?e():o==="fi"?p():o==="ja"?u():o==="ro"?a():o==="ua"?c():i()};export{f as n};
