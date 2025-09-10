@@ -1,0 +1,1 @@
+import{D as r,M as u}from"./BJILF9Ph.js";function o(t,n=r){return`${Math.round(Number(t)/u*10**n)/10**n} ꜩ`}function e(t){return`${t/1e7}%`}function f(t){return o(t/1000000n)}function c(t,n){return t=t??0n,n=n??0n,t*BigInt(n)}function p(t){return Number(t??0n)/1e6}function i(t){return`${t.toFixed(2)}x`}export{e as a,f as b,i as c,c as d,p as e,o as f};
