@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./O6t-pRWL.js","./Bho5j6Xg.js","./BRl2jpNx.js","./CKMI08DK.js","./Bv5Dzk5n.js"])))=>i.map(i=>d[i]);
+import{_ as s}from"./Bho5j6Xg.js";const c="https://rpc.tzkt.io/mainnet",_=async o=>{const t={Taquito:s(()=>import("./O6t-pRWL.js").then(a=>a.t),__vite__mapDeps([0,1,2,3,4]),import.meta.url)};await Promise.allSettled(Object.values(t));const{TezosToolkit:r,MichelCodecPacker:i}=await t.Taquito,e=new r(o??c);return e.setPackerProvider(new i),e};export{_ as createTezosToolkit};
